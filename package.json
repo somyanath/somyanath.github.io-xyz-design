@@ -1,0 +1,14 @@
+{
+  "name": "xyz-design-co",
+  "version": "1.0.0",
+  "description": "html-css-scss based basic website for portfolio",
+  "main": "index.html",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Somyanath Mohanty",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}

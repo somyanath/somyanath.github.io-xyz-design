@@ -1,0 +1,184 @@
+$primary-color: #35424a;
+$secondary-color: #e8491d;
+$hover-color: #cccccc;
+
+// Home Page
+// Global
+body {
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  background-color:#f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.button{
+  height: 38px;
+  background: $secondary-color;
+  border: 0;
+  padding: 0 20px;
+  color: white;
+}
+
+
+// Header section
+header {
+  background-color: $primary-color;
+  color: white;
+  border-bottom: solid 3px $secondary-color;
+  padding-top: 30px;
+  min-height: 70px;
+
+  .highlight, .current a {
+    color: $secondary-color;
+    font-weight: bold;
+  }
+
+  a:hover {
+    font-weight: bold;
+    color: $hover-color;
+  }
+
+  h1{
+    float: left;
+    margin: 0;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-size:16px;
+  }
+
+  li {
+    display: inline;
+    float: left;
+    padding: 0 20px;
+  }
+
+  nav {
+    float: right;
+    margin-top: 10px;
+  }
+}
+
+// Showcase section
+#showcase {
+  background: url('../img/showcase.jpg') repeat 0 -400px;
+  min-height: 400px;
+  color: white;
+  text-align: center;
+
+  h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+}
+
+// NewsLetter section
+#newsletter {
+  background-color: $primary-color;
+  color: #fff;
+  padding: 15px;
+
+  h1 {
+    float: left;
+  }
+
+  form {
+    float: right;
+    margin-top: 15px;
+  }
+
+  input[type="email"] {
+    height: 25px;
+    width: 250px;
+    padding: 4px;
+  }
+}
+
+// Boxes Section
+#boxes {
+  margin-top: 20px;
+  
+  .box {
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+  }
+
+  img {
+    height: 90px;
+  }
+}
+
+// Footer Section
+footer {
+  background-color: $secondary-color;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+// About Page
+// dark content
+.dark {
+  background-color: $primary-color;
+  color: white;
+  padding: 15px;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.main-content {
+  margin: 0;
+}
+
+article {
+  width: 65%;
+  float: left;
+}
+
+aside {
+
+  &#sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+  }
+
+  input, textarea {
+    width: 90%;
+    padding: 5px;
+  }
+}
+
+
+// Services Page
+// Service
+.services {
+  
+  li {
+    background-color: #e6e6e6;
+    border: solid 1px $hover-color;
+    padding: 20px;
+    margin-bottom: 5px;
+  }
+}

@@ -1,0 +1,162 @@
+body {
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.button {
+  height: 38px;
+  background: #e8491d;
+  border: 0;
+  padding: 0 20px;
+  color: white;
+}
+
+header {
+  background-color: #35424a;
+  color: white;
+  border-bottom: solid 3px #e8491d;
+  padding-top: 30px;
+  min-height: 70px;
+}
+
+header .highlight, header .current a {
+  color: #e8491d;
+  font-weight: bold;
+}
+
+header a:hover {
+  font-weight: bold;
+  color: #cccccc;
+}
+
+header h1 {
+  float: left;
+  margin: 0;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+header li {
+  display: inline;
+  float: left;
+  padding: 0 20px;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+#showcase {
+  background: url("../img/showcase.jpg") repeat 0 -400px;
+  min-height: 400px;
+  color: white;
+  text-align: center;
+}
+
+#showcase h1 {
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+#showcase p {
+  font-size: 20px;
+}
+
+#newsletter {
+  background-color: #35424a;
+  color: #fff;
+  padding: 15px;
+}
+
+#newsletter h1 {
+  float: left;
+}
+
+#newsletter form {
+  float: right;
+  margin-top: 15px;
+}
+
+#newsletter input[type="email"] {
+  height: 25px;
+  width: 250px;
+  padding: 4px;
+}
+
+#boxes {
+  margin-top: 20px;
+}
+
+#boxes .box {
+  float: left;
+  width: 30%;
+  text-align: center;
+  padding: 10px;
+}
+
+#boxes img {
+  height: 90px;
+}
+
+footer {
+  background-color: #e8491d;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.dark {
+  background-color: #35424a;
+  color: white;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.main-content {
+  margin: 0;
+}
+
+article {
+  width: 65%;
+  float: left;
+}
+
+aside#sidebar {
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+
+aside input, aside textarea {
+  width: 90%;
+  padding: 5px;
+}
+
+.services li {
+  background-color: #e6e6e6;
+  border: solid 1px #cccccc;
+  padding: 20px;
+  margin-bottom: 5px;
+}
+/*# sourceMappingURL=main.css.map */
