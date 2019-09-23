@@ -26,7 +26,8 @@ ul {
   height: 38px;
   background: $secondary-color;
   border: 0;
-  padding: 0 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   color: white;
 }
 
@@ -49,8 +50,11 @@ header {
     color: $hover-color;
   }
 
-  h1{
+  #branding {
     float: left;
+  }
+
+  #branding h1{
     margin: 0;
   }
 
@@ -124,17 +128,8 @@ header {
   }
 
   img {
-    height: 90px;
+    width: 90px;
   }
-}
-
-// Footer Section
-footer {
-  background-color: $secondary-color;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  margin-top: 20px;
 }
 
 // About Page
@@ -151,11 +146,12 @@ footer {
   margin: 0;
 }
 
-article {
+article#main-col {
   width: 65%;
   float: left;
 }
 
+// Sidebar
 aside {
 
   &#sidebar {
@@ -164,7 +160,7 @@ aside {
     margin-top: 10px;
   }
 
-  input, textarea {
+  .quote input, .quote textarea {
     width: 90%;
     padding: 5px;
   }
@@ -180,5 +176,48 @@ aside {
     border: solid 1px $hover-color;
     padding: 20px;
     margin-bottom: 5px;
+  }
+}
+
+// Footer Section
+footer {
+  background-color: $secondary-color;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+// Media Queries
+@media(max-width: 768px) {
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header{
+    padding-bottom:20px;
+  }
+
+  #showcase h1{
+    margin-top:40px;
+  }
+
+  #newsletter button, .quote button{
+    display:block;
+    width:100%;
+  }
+
+  #newsletter form input[type="email"], .quote input, .quote textarea{
+    width:100%;
+    margin-bottom:5px;
   }
 }
